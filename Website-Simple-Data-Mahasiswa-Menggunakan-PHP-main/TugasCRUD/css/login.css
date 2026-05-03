@@ -1,7 +1,6 @@
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #00adb5;
-    text-transform: uppercase;
+    font-family: 'Gill Sans', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
 .navbar-brand{
@@ -9,20 +8,35 @@ body{
 }
 
 .login {
-    border: 0;
+    background-color: white;
+    border-radius: 15px;
     height: 500px;
     margin: auto;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    color: #333;
 }
 
 .login h4{
-    margin-top: 100px;
+    margin-top: 60px;
+    font-weight: bold;
 }
 
 form .form-group input{
     margin: auto;
+    border-radius: 10px;
 }
 
 form .user input{
-    margin: auto;
-    margin-top: 70px;
+    margin-top: 40px;
+}
+
+.btn-primary{
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #0b5ed7;
 }

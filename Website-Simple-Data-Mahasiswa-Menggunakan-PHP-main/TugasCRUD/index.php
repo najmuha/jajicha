@@ -21,7 +21,7 @@ $siswa = query("SELECT * FROM mahasiswa ORDER BY nim DESC");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Animasi Login -->
-    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
     <style type="text/css">
     .preloader {
     position: fixed;
@@ -58,7 +58,7 @@ $siswa = query("SELECT * FROM mahasiswa ORDER BY nim DESC");
     <!-- Own CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>FTI UNMER</title>
+    <title>DATA MAHASISWA</title>
 </head>
 
 <body>
@@ -72,7 +72,7 @@ $siswa = query("SELECT * FROM mahasiswa ORDER BY nim DESC");
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
         <div class="container">
-            <a class="navbar-brand" href="index.php">FTI UNMER</a>
+            <a class="navbar-brand" href="index.php">DATA MAHASISWA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -97,7 +97,7 @@ $siswa = query("SELECT * FROM mahasiswa ORDER BY nim DESC");
     <div class="container">
         <div class="row my-2">
             <div class="col-md">
-                <h3 class="text-center fw-bold text-uppercase">Data Mahasiswa FTI</h3>
+                <h3 class="text-center fw-bold text-uppercase">Data Mahasiswa</h3>
                 <hr>
             </div>
         </div>

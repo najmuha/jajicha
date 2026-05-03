@@ -1,14 +1,41 @@
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', sans-serif;
+    background: #f8f9fa;
+}
+
+.navbar{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364) !important;
 }
 
 .navbar-brand{
     font-family: 'Righteous', cursive;
+    color: white !important;
 }
 
-.link a{
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 10px;
-    color: #fff;
+.table{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead{
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn{
+    border-radius: 8px;
+}
+
+.btn-primary{
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-success{
+    background-color: #198754;
+}
+
+.btn-danger{
+    background-color: #dc3545;
 }
