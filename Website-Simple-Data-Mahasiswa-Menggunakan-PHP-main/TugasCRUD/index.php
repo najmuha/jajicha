@@ -21,7 +21,7 @@ $siswa = query("SELECT * FROM mahasiswa ORDER BY nim DESC");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Animasi Login -->
-    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
     <style type="text/css">
     .preloader {
     position: fixed;
