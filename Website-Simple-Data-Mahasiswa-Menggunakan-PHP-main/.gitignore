@@ -1,0 +1,12 @@
+# Mengabaikan file konfigurasi sensitif
+.env
+
+# Mengabaikan file log
+*.log
+
+# Mengabaikan folder vendor (jika menggunakan composer)
+/vendor/
+
+# Mengabaikan file sistem operasi
+.DS_Store
+Thumbs.db
